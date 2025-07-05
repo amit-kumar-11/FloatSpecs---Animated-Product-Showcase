@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroPhone Pro - Revolutionary Smartphone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">AeroPhone</div>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#colors">Colors</a>
+          <a href="#specs">Specs</a>
+        </div>
+        <button class="theme-toggle" id="theme-toggle">
+          <span class="sun-icon">☀️</span>
+          <span class="moon-icon">🌙</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="title-line">AeroPhone</span>
+            <span class="title-line">Pro</span>
+          </h1>
+          <p class="hero-subtitle" id="typing-text"></p>
+          <div class="hero-cta">
+            <button class="cta-button primary">Pre-order Now</button>
+            <button class="cta-button secondary">Learn More</button>
+          </div>
+        </div>
+        <div class="hero-product">
+          <div class="product-container">
+            <div class="product-glow"></div>
+            <img src="https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AeroPhone Pro" class="product-image" id="product-image">
+            <div class="floating-specs">
+              <div class="spec-item">
+                <span class="spec-value">108MP</span>
+                <span class="spec-label">Camera</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-value">6.7"</span>
+                <span class="spec-label">Display</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-value">5000mAh</span>
+                <span class="spec-label">Battery</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Revolutionary Features</h2>
+        
+        <!-- Camera Feature -->
+        <div class="feature-item" data-feature="camera">
+          <div class="feature-content">
+            <div class="feature-text">
+              <h3>Pro Camera System</h3>
+              <p>Capture stunning photos with our advanced 108MP triple camera system. Night mode, portrait mode, and 8K video recording.</p>
+              <ul class="feature-list">
+                <li>108MP Main Camera</li>
+                <li>Ultra-wide & Telephoto Lenses</li>
+                <li>AI-powered Photography</li>
+                <li>8K Video Recording</li>
+              </ul>
+            </div>
+            <div class="feature-visual">
+              <div class="camera-animation">
+                <div class="camera-lens"></div>
+                <div class="camera-flash"></div>
+                <div class="camera-focus-ring"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Display Feature -->
+        <div class="feature-item" data-feature="display">
+          <div class="feature-content reverse">
+            <div class="feature-text">
+              <h3>Immersive Display</h3>
+              <p>Experience content like never before with our 6.7" OLED display featuring 120Hz refresh rate and HDR10+ support.</p>
+              <ul class="feature-list">
+                <li>6.7" OLED Display</li>
+                <li>120Hz Refresh Rate</li>
+                <li>HDR10+ Support</li>
+                <li>Always-on Display</li>
+              </ul>
+            </div>
+            <div class="feature-visual">
+              <div class="display-animation">
+                <div class="display-screen"></div>
+                <div class="display-glow"></div>
+                <div class="display-content">
+                  <div class="content-item"></div>
+                  <div class="content-item"></div>
+                  <div class="content-item"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Audio Feature -->
+        <div class="feature-item" data-feature="audio">
+          <div class="feature-content">
+            <div class="feature-text">
+              <h3>Spatial Audio</h3>
+              <p>Immerse yourself in rich, spatial audio with our advanced speaker system and audio processing technology.</p>
+              <ul class="feature-list">
+                <li>Dolby Atmos Support</li>
+                <li>Stereo Speakers</li>
+                <li>Noise Cancellation</li>
+                <li>Hi-Res Audio</li>
+              </ul>
+            </div>
+            <div class="feature-visual">
+              <div class="audio-animation">
+                <div class="speaker-grill"></div>
+                <div class="sound-waves">
+                  <div class="wave"></div>
+                  <div class="wave"></div>
+                  <div class="wave"></div>
+                  <div class="wave"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Battery Feature -->
+        <div class="feature-item" data-feature="battery">
+          <div class="feature-content reverse">
+            <div class="feature-text">
+              <h3>All-Day Battery</h3>
+              <p>Power through your day with our 5000mAh battery and 65W fast charging technology.</p>
+              <ul class="feature-list">
+                <li>5000mAh Battery</li>
+                <li>65W Fast Charging</li>
+                <li>Wireless Charging</li>
+                <li>Power Sharing</li>
+              </ul>
+            </div>
+            <div class="feature-visual">
+              <div class="battery-animation">
+                <div class="battery-outline"></div>
+                <div class="battery-level"></div>
+                <div class="charging-bolt"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Colors Section -->
+    <section class="colors" id="colors">
+      <div class="container">
+        <h2 class="section-title">Choose Your Color</h2>
+        <div class="color-showcase">
+          <div class="color-product">
+            <img src="https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AeroPhone Pro" class="color-product-image" id="color-product-image">
+            <div class="color-reflection"></div>
+          </div>
+          <div class="color-options">
+            <button class="color-btn active" data-color="midnight" style="background: linear-gradient(45deg, #1a1a1a, #333);">
+              <span class="color-name">Midnight Black</span>
+            </button>
+            <button class="color-btn" data-color="ocean" style="background: linear-gradient(45deg, #2563eb, #3b82f6);">
+              <span class="color-name">Ocean Blue</span>
+            </button>
+            <button class="color-btn" data-color="rose" style="background: linear-gradient(45deg, #e11d48, #f43f5e);">
+              <span class="color-name">Rose Gold</span>
+            </button>
+            <button class="color-btn" data-color="emerald" style="background: linear-gradient(45deg, #059669, #10b981);">
+              <span class="color-name">Emerald Green</span>
+            </button>
+            <button class="color-btn" data-color="arctic" style="background: linear-gradient(45deg, #f8fafc, #e2e8f0);">
+              <span class="color-name">Arctic Silver</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specs Section -->
+    <section class="specs" id="specs">
+      <div class="container">
+        <h2 class="section-title">Technical Specifications</h2>
+        <div class="specs-grid">
+          <div class="spec-card">
+            <div class="spec-icon">📱</div>
+            <h3>Display</h3>
+            <p>6.7" OLED<br>2778 x 1284 pixels<br>120Hz ProMotion</p>
+          </div>
+          <div class="spec-card">
+            <div class="spec-icon">📸</div>
+            <h3>Camera</h3>
+            <p>108MP Main<br>12MP Ultra-wide<br>12MP Telephoto</p>
+          </div>
+          <div class="spec-card">
+            <div class="spec-icon">⚡</div>
+            <h3>Performance</h3>
+            <p>A16 Bionic Chip<br>8GB RAM<br>256GB Storage</p>
+          </div>
+          <div class="spec-card">
+            <div class="spec-icon">🔋</div>
+            <h3>Battery</h3>
+            <p>5000mAh<br>65W Fast Charging<br>Wireless Charging</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Experience the Future?</h2>
+        <p>Pre-order your AeroPhone Pro today and be among the first to experience revolutionary mobile technology.</p>
+        <div class="cta-buttons">
+          <button class="cta-button primary large">Pre-order Now - $999</button>
+          <button class="cta-button secondary large">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>AeroPhone</h3>
+            <p>Revolutionizing mobile technology</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Product</h4>
+              <a href="#">Features</a>
+              <a href="#">Specifications</a>
+              <a href="#">Pricing</a>
+            </div>
+            <div class="footer-column">
+              <h4>Support</h4>
+              <a href="#">Contact</a>
+              <a href="#">Help Center</a>
+              <a href="#">Warranty</a>
+            </div>
+            <div class="footer-column">
+              <h4>Company</h4>
+              <a href="#">About</a>
+              <a href="#">Careers</a>
+              <a href="#">Press</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 AeroPhone. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating CTA -->
+    <div class="floating-cta" id="floating-cta">
+      <button class="floating-btn">
+        <span class="btn-text">Pre-order Now</span>
+        <span class="btn-price">$999</span>
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
